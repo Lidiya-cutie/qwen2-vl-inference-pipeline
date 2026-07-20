@@ -1,0 +1,37 @@
+# Веса моделей (скачиваются отдельно)
+model1/
+model2/
+*.bin
+*.safetensors
+*.gguf
+*.pth
+*.pt
+
+# Чужие репозитории (клоны)
+Stable_Diffusion/
+Janus/
+
+# Кэши
+__pycache__/
+*.pyc
+.cache/
+.huggingface/
+
+# Данные
+*.csv
+*.parquet
+*.jpg
+*.png
+*.jpeg
+*.log
+results/*.csv
+!results/example_results.csv
+
+# Окружение
+.venv/
+venv/
+*.egg-info/
+
+# Системное
+.DS_Store
+Thumbs.db
